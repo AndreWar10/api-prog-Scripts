@@ -1,0 +1,12 @@
+.cabecalho {
+    height: 10vh;
+    border: 0.2 vh solid green;
+    background-color: rgb(113, 0, 136);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+

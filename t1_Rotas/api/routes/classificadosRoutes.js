@@ -1,0 +1,13 @@
+const controllerClassificados = require('../controllers/classificadosControllers.js')
+
+app.get('/classificados/classificadosMenu', controllerClassificados.menuClassificadosControllers)
+
+app.get('/classificados/classificadosAutomovelMenu', controllerClassificados.menuClassificadosAutomovelControllers)
+
+app.get('/classificados/classificadosAutomovelVolkswagenMenu', controllerClassificados.menuClassificadosAutomovelVolkswagenControllers)
+
+app.get('/classificados/classificadosAutomovelVolkswagenGolMenu', controllerClassificados.menuClassificadosAutomovelVolkswagenGolControllers)
+
+app.get('/classificados/classificadosAutomovelVolkswagenFuscaMenu', controllerClassificados.menuClassificadosAutomovelVolkswagenFuscaControllers)
+
+app.get('/classificados/classificadosAutomovelVolkswagenBrasiliaMenu', controllerClassificados.menuClassificadosAutomovelVolkswagenBrasiliaControllers)

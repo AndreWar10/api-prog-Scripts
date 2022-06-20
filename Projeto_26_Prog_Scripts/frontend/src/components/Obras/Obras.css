@@ -1,0 +1,90 @@
+.tabela {
+    height: 40vh;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+#legenda {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+tbody>tr {
+    height: 0.2vh;
+    border: 0.1vh;
+}
+
+tbody>td {
+    padding: 0.2%;
+}
+
+tfoot>tr {
+    padding: 0.2%;
+    width: 40vw;
+}
+
+
+#p_cidade {
+    text-align: center;
+}
+#t_cidade {
+    text-align: center;
+}
+
+#p_tipo {
+    text-align: center;
+}
+#t_tipo {
+    text-align: center;
+}
+
+#p_valor {
+    text-align: center;
+}
+#t_valor {
+    text-align: center;
+}
+
+#p_inicioobra {
+    text-align: center;
+}
+#t_inicioobra {
+    text-align: center;
+}
+
+#p_engCodigo {
+    text-align: center;
+}
+#engCodigo {
+    text-align: center;
+     width: 1vw;
+}
+
+#nome {
+    text-align: center;
+
+}
+#telefone {
+    text-align: center;
+
+}
+#crea {
+    text-align: center;
+
+}
+#novo {
+    text-align: right;
+
+}
+#editar {
+    text-align: right;
+
+}
+
+

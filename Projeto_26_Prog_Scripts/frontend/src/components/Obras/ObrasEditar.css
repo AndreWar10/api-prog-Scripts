@@ -1,0 +1,23 @@
+.sectionTable {
+    background-color: beige;
+
+    max-width: 99.5vw;
+    max-height: 81vh;
+
+    overflow: scroll;
+
+    height: 81vh;
+
+}
+
+#div_form {
+    margin-top: 10px;    
+}
+
+.tabela {
+    max-width: 98vw;
+    max-height: 68vh;
+
+    overflow: scroll;
+}
+

@@ -1,0 +1,24 @@
+    <%- include ('parcial/header.ejs') ;%>
+
+    <header>
+                <nav class="menuPrincipal">
+                        <ul>
+                                <li><a id="parra" href="/parra/parraMenu">Parra</a></li>
+                                <li><a id="projeto" href="/projeto/projetoMenu">Projeto</a></li>
+                                <li><a id="pacaembu" href="/pacaembu/pacaembuMenu">Pacaembu</a></li>              
+                                <li><a id="perplan" href="perplan/perplanMenu">Perplan</a></li>
+                                <li><a id="mrv" href="mrv/mrvMenu">MRV</a></li>
+                        </ul>
+                </nav>        
+
+    </header>
+
+    <div id='corpo'>
+        <div id="titulo"> <%= titulo %> </div>    
+        
+        <div class="img_menu">
+                <img src="/imagens/imagem1.jpg" alt="menu" height="425px" width="auto">
+        </div>
+    </div>
+
+    <%- include ('parcial/footer.ejs') ;%>

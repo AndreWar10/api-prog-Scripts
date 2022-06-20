@@ -1,0 +1,101 @@
+.tabela {
+    height: 40vh;
+}
+
+tr:nth-child(even) {
+    background: #CCC
+}
+tr:nth-child(odd) {
+    background: #FFF
+}
+
+tbody > tr {
+    height: 0.2vh;
+    border: 0.1vh;
+}
+
+tbody > td {
+    padding: 0.2%;
+}
+
+tfoot > tr {
+    padding: 0.2%;
+    width: 40vw;
+}
+
+#legenda {
+    height: 50px;
+    margin-top: 15px;
+}
+
+#titulo {
+    border: 0.1vh solid black;
+    background-color: darkgrey;
+    padding-top: 0.1vh;
+    font-size: 16px;
+}
+
+#t_codigo {
+    text-align: center;
+    width: 1vw;
+}
+
+
+#t_nome {
+    width:25vw;
+    text-align: center;
+}
+
+#t_apelido {
+    width: 15vw;
+    text-align: center;
+}
+
+#t_telefone {
+    width: 15vw;
+    text-align: center;
+}
+
+#t_crea {
+    width: 20vw;
+    text-align: center;
+}
+
+#t_dtformatura {
+    width: 20vw;
+    text-align: center;
+}
+
+#p_codigo {
+    text-align: center;
+}
+
+#p_nome {
+    width: 20vw;
+    padding-left: 0.5vw;
+    text-align: center;}
+
+#p_apelido {
+    width: 10vw;
+    padding-left: 0.5vw;
+    text-align: center;
+}
+
+#p_telefone {
+    width: 1vw;
+    padding-left: 0.5vw;
+    text-align: center;
+}
+
+#p_crea {
+    width: 3vw;
+    padding-left: 0.5vw;
+    text-align: center;
+}
+
+#p_dtformatura {
+    width: 10vw;
+    padding-left: 0.5vw;
+    text-align: center;
+}
+
